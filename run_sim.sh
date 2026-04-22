@@ -9,7 +9,7 @@ LOG_FILE="sim.log"
 mkdir -p $SIM_DIR
 
 echo "[RUN_SIM] Compiling RTL and Testbench..."
-iverilog -o $SIM_DIR/$SIM_EXE src/*.v tb/*.v
+iverilog -g2012 -o $SIM_DIR/$SIM_EXE src/*.v tb/*.v
 
 if [ $? -eq 0 ]; then
     echo "[RUN_SIM] Compilation successful."
