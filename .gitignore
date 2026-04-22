@@ -1,0 +1,11 @@
+# Simulation artifacts
+xdmac_sim
+xdmac_sim_dir/
+xdmac.vcd
+sim.log
+*.vcd
+*.log
+
+# Temporary files
+.DS_Store
+.gemini/
