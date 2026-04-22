@@ -25,7 +25,7 @@
 Descriptor를 읽거나 데이터를 소스 메모리에서 가져올 때의 타이밍입니다.
 
 ```mermaid
-sequence diagram
+sequenceDiagram
     participant M as XDMAC Master
     participant S as Memory Slave
     Note over M,S: Address Phase
@@ -44,7 +44,7 @@ sequence diagram
 읽어온 데이터를 목적지 주소에 저장하는 과정입니다.
 
 ```mermaid
-sequence diagram
+sequenceDiagram
     participant M as XDMAC Master
     participant S as Memory Slave
     M->>S: AWADDR, AWVALID
